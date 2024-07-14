@@ -18,4 +18,4 @@ def passgen(request):
     for x in range(length):
         password +=random.choice(char)
 
-    return render(request, "password.html",{"password":password})
+    return render(request, "home.html",{"password":password})
